@@ -1,8 +1,8 @@
 function firstWord(s) {
-  // your code here
+    // Split the string by whitespace characters and return the first word
+    return s.split(' ')[0];
 }
 
-// Do not change the code below
-
+// Example usage:
 const s = prompt("Enter String:");
 alert(firstWord(s));
